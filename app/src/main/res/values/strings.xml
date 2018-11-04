@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HamsterApp</string>
+    <string name="welcome_message">Добро пожаловать в мир хомячков</string>
+    <string name="menu_hamsters_list">Список хомячков</string>
+    <string name="menu_item_about">О себе</string>
+    <string name="search">Поиск</string>
+    <string name="description">Описание</string>
+    <string name="skype">skype: tiko9520</string>
+    <string name="mail">mail: tiko9520@gmail.com</string>
+    <string name="slogan">Professionals are often heroes, but not because they try to be. Professionals become heroes when they
+get a job done well, on time, and on budget. I strive to be professional!</string>
+</resources>

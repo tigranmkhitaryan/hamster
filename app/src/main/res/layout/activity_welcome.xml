@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hamster_background"
+    tools:context="am.emti.hamsterapp.ui.WelcomeActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="16dp"
+       android:textSize="16sp"
+       android:layout_centerHorizontal="true"
+       android:textColor="@color/colorBlack"
+       android:text="@string/welcome_message"/>
+
+
+   <am.emti.hamsterapp.ui.view.TintableImageView
+       android:id="@+id/activity_welcome_continue_image"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="24dp"
+       app:tintColorStateList="@color/tintable_color_selector"
+       android:src="@drawable/hamster_button"/>
+
+</RelativeLayout>

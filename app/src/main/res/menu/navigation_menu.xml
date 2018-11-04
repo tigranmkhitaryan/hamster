@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_hamsters_list_item"
+            android:title="@string/menu_hamsters_list"
+            android:icon="@drawable/ic_list_black_48dp" />
+        <item android:id="@+id/nav_about_item"
+            android:title="@string/menu_item_about"
+            android:icon="@drawable/ic_account_circle_black_48dp" />
+    </group>
+</menu>
